@@ -1,12 +1,24 @@
 {
   "name": "playwright-typescript-bdd",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "My Playwright TypeScript BDD Test Setup",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cucumber-js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "playwright",
+    "typescript",
+    "cucumber",
+    "bdd",
+    "e2e"
+  ],
+  "author": "Your Name",
   "license": "ISC",
-  "description": ""
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
 }

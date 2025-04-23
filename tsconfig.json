@@ -1,17 +1,12 @@
 {
-    "compilerOptions": {
-      "target": "es2018",        // Target ECMAScript version
-      "module": "commonjs",      // Module system
-      "strict": true,          // Enable strict type checking
-      "esModuleInterop": true,   // Enable interoperability with ES modules
-      "outDir": "dist",        // Output directory for compiled files
-      "sourceMap": true       // Generate source maps for debugging
-    },
-    "include": [
-      "step-definitions/**/*.ts", // Include TypeScript files in this directory
-      "features/**/*.feature"    // Include Gherkin feature files
-    ],
-    "exclude": [
-      "node_modules"           // Exclude node_modules directory
-    ]
-  }
+  "compilerOptions": {
+    // ... other options
+  },
+  "include": [
+    "step-definitions/**/*.ts", //  <- CHECK THIS LINE
+    "features/**/*.feature"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
